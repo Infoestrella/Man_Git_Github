@@ -82,7 +82,10 @@ Sintaxis:
 >```git commit --amend``` (open commit in text editor)
 
 ## Github
-1. Create Repository online
+1. The first step is create Repository online
+
+Sintaxis:
+> ```git remote add origin [myRepository URL]```
 
 
 
