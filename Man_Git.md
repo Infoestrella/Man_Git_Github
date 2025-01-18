@@ -90,9 +90,14 @@ Returns versions in Local Repository
 ### ```pull```
 >```git pull``` (Github -> local)
 
+### ```clone```
+>```git clone <URL from Github -> code -> HTTPS>``` (Clone repository from Github to local)
+
 ### ```tags```
 For versions.
->```git tag <myTag> -m "<myDescription>"``` (Github -> local)
+>```git tag <myTag> -m "<myDescriptiong>"``` (add tag)
+
+>```git push --tags``` (push tags)
 
 
 
