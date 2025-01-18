@@ -37,7 +37,6 @@ When you start proyect. Git create 2 zones:
 - **Local repository**: It stores files snapshots.
 
 ### ```git add```
-Sintaxis:
 >```git add <fileName>```
 
 >```git add .``` (all files in Working folder
@@ -45,7 +44,6 @@ Sintaxis:
 Move the file from working directory to Staging area. Git tracks this file.
 
 ### ```git commit```
-Sintaxis:
 >```git commit -m "<myDescription>"```
 
 >```git commit -am "<myDescription>"``` (add + commit at the same time)
@@ -75,19 +73,28 @@ Returns files and folders in working directory. Only files in Sating area and no
 Returns versions in Local Repository
 
 ### ```git reset --hard```
->Sintaxis: ```git reset --hard <snapshotCode>```
+>```git reset --hard <snapshotCode>```
 
 ### ```vim```
-Sintaxis:
 >```git commit --amend``` (open commit in text editor)
 
 ## Github
 1. The first step is create Repository online
 
-Sintaxis:
+### ```remote add origin```
 >```git remote add origin <myRepository URL>``` (first time?)
 
->```git push origin <branchName>```
+### ```push```
+>```git push origin <branchName>``` (local -> Github)
+
+### ```pull```
+>```git pull``` (Github -> local)
+
+### ```tags```
+For versions.
+>```git tag <myTag> -m "<myDescription>"``` (Github -> local)
+
+
 
 
 
