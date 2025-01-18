@@ -75,7 +75,10 @@ Returns versions in Local Repository
 ### ```git reset --hard```
 >Sintaxis: ```git reset --hard [snapshotCode]```
 
-
+### ```vim```
+Sintaxis:
+>```git commit --amend``` (open commit in text editor)
+>```i:``` (Editor mode)
 
 
 
