@@ -39,6 +39,7 @@ When you start proyect. Git create 2 zones:
 ### ```git add```
 Sintaxis:
 >```git add [fileName]```
+
 >```git add .``` (all files in Working folder
 
 Move the file from working directory to Staging area. Git tracks this file.
@@ -46,6 +47,7 @@ Move the file from working directory to Staging area. Git tracks this file.
 ### ```git commit```
 Sintaxis:
 >```git commit -m "[myDescription]"```
+
 >```git commit -am "[myDescription]"``` (add + commit at the same time)
 
 Move the file from Staging Area to Local repository.
@@ -78,9 +80,9 @@ Returns versions in Local Repository
 ### ```vim```
 Sintaxis:
 >```git commit --amend``` (open commit in text editor)
->```i:``` (Editor mode)
 
-
+## Github
+1. Create Repository online
 
 
 
