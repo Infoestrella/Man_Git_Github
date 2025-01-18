@@ -37,13 +37,16 @@ When you start proyect. Git create 2 zones:
 - **Local repository**: It stores files snapshots.
 
 ### ```git add```
->Sintaxis: ```git add [fileName]```
->Sintaxis: ```git add .``` (all files in Working folder
+Sintaxis:
+>```git add [fileName]```
+>```git add .``` (all files in Working folder
 
 Move the file from working directory to Staging area. Git tracks this file.
 
 ### ```git commit```
->Sintaxis: ```git commit -m "[myDescription]"```
+Sintaxis:
+>```git commit -m "[myDescription]"```
+>```git commit -am "[myDescription]"``` (add + commit at the same time)
 
 Move the file from Staging Area to Local repository.
 
