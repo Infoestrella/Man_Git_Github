@@ -40,8 +40,7 @@ When you start proyect. Git create 2 zones:
 Move the file from working directory to Staging area. Git tracks this file.
 
 ### ```git commit```
-
-Sintaxis: ```git commit -m "[myDescription]"```
+>Sintaxis: ```git commit -m "[myDescription]"```
 
 Move the file from Staging Area to Local repository.
 
@@ -61,8 +60,14 @@ Returns files and folders in working directory. Only files in Sating area and no
 - ```?? [filename]```: Not tracking
 - ```?? [foldername]/```: Not tracking
 - ```A [filename]```: Tracking
-- ```M [filename]```: Tracking with changes but no backup 
+- ```M (red) [filename]```: Tracking with changes but no backup. It needs ```add```
+- ```M (green) [filename]```: Tracking with changes but no backup. Ready for ```commit```
 
+### ```git log --oneline```
+Returns versions in Local Repository
+
+### ```git reset --hard```
+>Sintaxis: ```git reset --hard [snapshotCode]```
 
 
 
