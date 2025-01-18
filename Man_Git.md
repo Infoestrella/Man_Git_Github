@@ -40,6 +40,9 @@ When you start proyect. Git create 2 zones:
 Move the file from working directory to Staging area. Git tracks this file.
 
 ### ```git commit```
+
+Sintaxis: ```git commit -m "[myDescription]"```
+
 Move the file from Staging Area to Local repository.
 
 <table border="1">
@@ -54,6 +57,10 @@ Move the file from Staging Area to Local repository.
 
 ### ```git status -s```
 Returns files and folders in working directory.
+
+- ```?? [filename]```: Not tracking
+- ```?? [foldername]/```: Not tracking
+- ```A [filename]```: Tracking
 
 
 
