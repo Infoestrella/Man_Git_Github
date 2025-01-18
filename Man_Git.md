@@ -14,9 +14,9 @@ Control version software. Open. Save log of changes of files.
 
 Git takes file snapshots:
 
-1. Name file ```[code0]+"Start"```
-2. Change1 -> Rename it ```[code2]+"Comments1"```
-3. Change2 -> Rename it ```[code3]+"Comments2"```
+1. Name file ```<code0>+"Start"```
+2. Change1 -> Rename it ```<code2>+"Comments1"```
+3. Change2 -> Rename it ```<code3>+"Comments2"```
 
 We can revert changes and recover previous state of multiple files.
 
@@ -38,7 +38,7 @@ When you start proyect. Git create 2 zones:
 
 ### ```git add```
 Sintaxis:
->```git add [fileName]```
+>```git add <fileName>```
 
 >```git add .``` (all files in Working folder
 
@@ -46,9 +46,9 @@ Move the file from working directory to Staging area. Git tracks this file.
 
 ### ```git commit```
 Sintaxis:
->```git commit -m "[myDescription]"```
+>```git commit -m "<myDescription>"```
 
->```git commit -am "[myDescription]"``` (add + commit at the same time)
+>```git commit -am "<myDescription>"``` (add + commit at the same time)
 
 Move the file from Staging Area to Local repository.
 
@@ -65,17 +65,17 @@ Move the file from Staging Area to Local repository.
 ### ```git status -s```
 Returns files and folders in working directory. Only files in Sating area and not added.
 
-- ```?? [filename]```: Not tracking
-- ```?? [foldername]/```: Not tracking
-- ```A [filename]```: Tracking
-- ```M (red) [filename]```: Tracking with changes but no backup. It needs ```add```
-- ```M (green) [filename]```: Tracking with changes but no backup. Ready for ```commit```
+- ```?? <filename>```: Not tracking
+- ```?? <foldername>/```: Not tracking
+- ```A <filename>```: Tracking
+- ```M (red) <filename>```: Tracking with changes but no backup. It needs ```add```
+- ```M (green) <filename>```: Tracking with changes but no backup. Ready for ```commit```
 
 ### ```git log --oneline```
 Returns versions in Local Repository
 
 ### ```git reset --hard```
->Sintaxis: ```git reset --hard [snapshotCode]```
+>Sintaxis: ```git reset --hard <snapshotCode>```
 
 ### ```vim```
 Sintaxis:
@@ -85,7 +85,9 @@ Sintaxis:
 1. The first step is create Repository online
 
 Sintaxis:
-> ```git remote add origin [myRepository URL]```
+>```git remote add origin <myRepository URL>``` (first time?)
+
+>```git push origin <branchName>```
 
 
 
