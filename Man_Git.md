@@ -56,11 +56,12 @@ Move the file from Staging Area to Local repository.
 </table>
 
 ### ```git status -s```
-Returns files and folders in working directory.
+Returns files and folders in working directory. Only files in Sating area and not added.
 
 - ```?? [filename]```: Not tracking
 - ```?? [foldername]/```: Not tracking
 - ```A [filename]```: Tracking
+- ```M [filename]```: Tracking with changes but no backup 
 
 
 
