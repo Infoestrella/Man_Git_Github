@@ -114,4 +114,5 @@ For versions.
 >```git push --tags``` (push tags)
 
 ## Visual Studio Code
-Menu -> view -> terminal
+Menu -> view -> terminal.
+You can push changes from VSC to Github
