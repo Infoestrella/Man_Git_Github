@@ -112,3 +112,6 @@ For versions.
 >```git tag <myTag> -m "<myDescriptiong>"``` (add tag)
 
 >```git push --tags``` (push tags)
+
+## Visual Studio Code
+Menu -> view -> terminal
