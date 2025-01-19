@@ -71,6 +71,27 @@ Returns versions in Local Repository
 ### ```vim```
 >```git commit --amend``` (open commit in text editor)
 
+## Branches
+Git works with Branches. One per developer?. Each one has its own snapshots.
+
+Finish, Git merge all branches in a final version.
+
+Git detect if both developer has worked in same code.
+
+Default branch is "Master". 
+
+### ```git branch```
+>```git branch <myBranch>``` (create new branch)
+
+>```git branch``` (Returns branch list)
+
+>```git checkout <myBranch>``` (Move to other branch)
+
+### ```git merge```
+Always from master branch
+
+>```git merge <myBranch>```
+
 ## Github
 1. The first step is create Repository online
 
@@ -91,19 +112,3 @@ For versions.
 >```git tag <myTag> -m "<myDescriptiong>"``` (add tag)
 
 >```git push --tags``` (push tags)
-
-## Branches
-Git works with Branches. One per developer?. Each one has its own snapshots.
-
-Finish, Git merge all branches in a final version.
-
-Git detect if both developer has worked in same code.
-
-Default branch is "Master". 
-
-### ```git branch```
->```git branch <myBranch>``` (create new branch)
-
->```git branch``` (Returns branch list)
-
->```git checkout <myBranch>``` (Move to other branch)
