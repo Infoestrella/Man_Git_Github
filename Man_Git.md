@@ -115,4 +115,4 @@ For versions.
 
 ## Visual Studio Code
 Menu -> view -> terminal.
-You can push changes from VSC to Github
+You can push changes from VSC to Github. This saves uploading the files manually!!
