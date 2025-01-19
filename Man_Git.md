@@ -20,13 +20,6 @@ Git takes file snapshots:
 
 We can revert changes and recover previous state of multiple files.
 
-## Branches
-Git works with Branches. One per developer?. Each one has its own snapshots.
-
-Finish, Git merge all branches in a final version.
-
-Git detect if both developer has worked in same code.
-
 ## Git tool
 First install and open **Git bash**.
 
@@ -39,7 +32,7 @@ When you start proyect. Git create 2 zones:
 ### ```git add```
 >```git add <fileName>```
 
->```git add .``` (all files in Working folder
+>```git add .``` (all files in Working folder)
 
 Move the file from working directory to Staging area. Git tracks this file.
 
@@ -99,28 +92,18 @@ For versions.
 
 >```git push --tags``` (push tags)
 
+## Branches
+Git works with Branches. One per developer?. Each one has its own snapshots.
 
+Finish, Git merge all branches in a final version.
 
+Git detect if both developer has worked in same code.
 
+Default branch is "Master". 
 
+### ```git branch```
+>```git branch <myBranch>``` (create new branch)
 
+>```git branch``` (Returns branch list)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+>```git checkout <myBranch>``` (Move to other branch)
